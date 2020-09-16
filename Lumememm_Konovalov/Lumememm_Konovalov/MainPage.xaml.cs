@@ -41,6 +41,8 @@ namespace Lumememm_Konovalov
         }
         private void sz_ValueChanged(object sender, ValueChangedEventArgs e)
         {
+            txt.FontSize = txt.FontSize + e.NewValue;
+            ;
         }
     }
 }

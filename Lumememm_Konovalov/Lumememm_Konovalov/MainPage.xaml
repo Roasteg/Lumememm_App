@@ -5,16 +5,8 @@
 
     <StackLayout >
         <StackLayout x:Name="Lumememm">
-            <Label x:Name="l1"
-               Text="Lumememm"
-               TextColor="Black"
-   
-               FontSize="14"
-               
-               
-            >
+     
 
-            </Label>
             <Frame x:Name="c1"
                CornerRadius="180"
                HeightRequest="60"
@@ -22,9 +14,21 @@
                BorderColor="Black"
                HorizontalOptions="CenterAndExpand"
                VerticalOptions="Center"
-               BackgroundColor="White"
+               BackgroundColor="White">
+               <Label x:Name="txt"
+                    Text=": )"
+                   TextColor="Black"
+                   Rotation="90"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+   
+                   FontSize="10"
+                   >
                    
-            >
+                </Label>
+
+                
 
 
             </Frame>
@@ -46,7 +50,7 @@
                BorderColor="Black"
                HorizontalOptions="CenterAndExpand"
                VerticalOptions="Center"
-               BackgroundColor="White"
+               BackgroundColor="Black"
                >
 
             </Frame>
@@ -99,8 +103,8 @@
             </Stepper>
             <Slider x:Name="sz"
                     ValueChanged="sz_ValueChanged"
-                    Minimum="-50"
-                    Maximum="50"
+                    Minimum="-14"
+                    Maximum="28"
                     Value="0"
                     WidthRequest="100"
                     HorizontalOptions="CenterAndExpand"
