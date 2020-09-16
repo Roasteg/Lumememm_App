@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lumememm_Konovalov.MainPage">
+
+    <StackLayout >
+        <StackLayout x:Name="Lumememm">
+            <Label x:Name="l1"
+               Text="Lumememm"
+               TextColor="Black"
+   
+               FontSize="14"
+               
+               
+            >
+
+            </Label>
+            <Frame x:Name="c1"
+               CornerRadius="180"
+               HeightRequest="60"
+               WidthRequest="60"
+               BorderColor="Black"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="Center"
+               BackgroundColor="White"
+                   
+            >
+
+
+            </Frame>
+            <Frame x:Name="c2"
+               CornerRadius="180"
+               HeightRequest="100"
+               WidthRequest="100"
+               BorderColor="Black"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="Center"
+               BackgroundColor="White"
+               >
+
+
+            </Frame>
+            <Frame x:Name="sqr"
+               HeightRequest="130"
+               WidthRequest="130"
+               BorderColor="Black"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="Center"
+               BackgroundColor="White"
+               >
+
+            </Frame>
+        </StackLayout>
+        
+        <StackLayout Orientation="Vertical"
+                     VerticalOptions="Center">
+            <Button x:Name="vis"
+                    Clicked="vis_Clicked"
+                    Text="Visible"
+                    FontSize="Large"
+                    HorizontalOptions="Center"
+                    
+                    WidthRequest="110"
+
+                    >
+                
+                
+            </Button>
+            <Button x:Name="invis"
+                    Clicked="invis_Clicked"
+                    Text="Invisible"
+                    FontSize="Large"
+                    HorizontalOptions="Center"
+                    
+                    WidthRequest="120"
+                    
+
+                    >
+            </Button>
+            <Button x:Name="rand"
+                    Clicked="rand_Clicked"
+                    Text="Random colour"
+                    FontSize="Large"
+                    
+                    HorizontalOptions="CenterAndExpand"
+                    WidthRequest="150"
+
+                    >
+            </Button>
+            <Stepper x:Name="opac"
+                    HorizontalOptions="Center"
+                     ValueChanged="opac_ValueChanged"
+                     Minimum="0"
+                     Maximum="1"
+                     Value="1"
+                     Increment="0.1"
+                >
+                
+            </Stepper>
+            <Slider x:Name="sz"
+                    ValueChanged="sz_ValueChanged"
+                    Minimum="-50"
+                    Maximum="50"
+                    Value="0"
+                    WidthRequest="100"
+                    HorizontalOptions="CenterAndExpand"
+                    
+                    >
+                
+                
+                
+            </Slider>
+            
+
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>
