@@ -103,8 +103,8 @@
             </Stepper>
             <Slider x:Name="sz"
                     ValueChanged="sz_ValueChanged"
-                    Minimum="-14"
-                    Maximum="28"
+                    Minimum="-10"
+                    Maximum="20"
                     Value="0"
                     WidthRequest="100"
                     HorizontalOptions="CenterAndExpand"

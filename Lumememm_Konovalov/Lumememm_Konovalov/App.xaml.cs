@@ -10,7 +10,7 @@ namespace Lumememm_Konovalov
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Absolut();
         }
 
         protected override void OnStart()

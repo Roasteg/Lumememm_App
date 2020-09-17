@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lumememm_Konovalov.Absolut">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <BoxView x:Name="c1" Color="Black" CornerRadius="90" AbsoluteLayout.LayoutBounds="180,70, 70, 70"/>
+            <BoxView x:Name="c2" Color="Black" CornerRadius="90" AbsoluteLayout.LayoutBounds="155, 140, 120, 120"/>
+            <BoxView x:Name="sqr" Color="Black" AbsoluteLayout.LayoutBounds="155, 250, 120, 60"/>
+            <Button x:Name="inv" Text="Hide" Clicked="inv_Clicked" BorderWidth="2" BorderColor="Black" BackgroundColor="White" AbsoluteLayout.LayoutBounds="10, 400"/>
+            <Button x:Name="vis" Text="Show" Clicked="vis_Clicked" BorderColor="Black" BorderWidth="2" BackgroundColor="White" AbsoluteLayout.LayoutBounds="100, 400"/>
+            <Stepper x:Name="fade" ValueChanged="fade_ValueChanged" Value="1" Minimum="0" Maximum="1" Increment="0.2" BackgroundColor="White" AbsoluteLayout.LayoutBounds="120, 600"/>
+            <Button x:Name="rand" Text="Random colour" BackgroundColor="White" BorderColor="Black" BorderWidth="2" AbsoluteLayout.LayoutBounds="230, 400"/>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
